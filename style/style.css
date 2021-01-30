@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #B4B4B4;
+}
+
+.main{ 
+    height: 100vh;
+}
+
+.left {
+    background: #C23F3F;
+    border: 1px solid #484848;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.left, .right {
+    height: 80vh;
+}
+
+.poke-container{
+    background: cadetblue;
+    overflow-y: scroll;
+    height: 100%;
+    border: 1px solid #484848;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #30A7D7;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2a7b9b;
+  }
+
+.right {
+    background: #AB4848;
+    border: 1px solid #484848;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+@media screen and (max-width: 755px)  {
+    .left {
+        background: #C23F3F;
+        border: 1px solid #484848;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .right {
+        background: #AB4848;
+        border: 1px solid #484848;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+}
+
+.name-id {
+    background: #30A7D7;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.pic {
+    height: 100%;
+    background: #CBCBCB;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.poke-info {
+    height: 50%;
+}
+
+#poke-name {
+    font-size: 1.4rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#poke-id {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.poke-info-2 {
+    height: 42%;
+    background: #30A7D7;
+    margin-top: 2rem;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+#height, #weight, #abilities {
+    font-size: 1.5rem;
+    color: white;
+}
+
+#poke-height, #poke-weight, #poke-abilities {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.img {
+    width: 180px;
+    height: 180px;
+    padding: 1rem;
+}
+
+.img-placeholder {
+    border-radius: 6px;
+}
+
+.img-ph {
+    border-radius: 6px;
+    padding: 2rem;
+}
